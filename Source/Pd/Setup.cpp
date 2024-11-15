@@ -159,6 +159,7 @@ static void plugdata_print(void* object, char const* message)
 extern "C" {
 
 void pd_init();
+void smoothe_tilde_setup();
 
 #if ENABLE_GEM
 void Gem_setup(t_symbol* plugin_path);
