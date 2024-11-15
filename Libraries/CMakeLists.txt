@@ -406,7 +406,7 @@ unset(MESSAGE_QUIET)
 # ------------------------------------------------------------------------------#
 # TARGETS
 # ------------------------------------------------------------------------------#
-add_library(externals STATIC ${ELSE_SOURCES} ${CYCLONE_SOURCES} ${PDLUA_SOURCES} ${CMAKE_CURRENT_SOURCE_DIR}/Kallyn/smoothe.c)
+add_library(externals STATIC ${ELSE_SOURCES} ${CYCLONE_SOURCES} ${PDLUA_SOURCES} ${CMAKE_CURRENT_SOURCE_DIR}/smoothe.c)
 add_library(externals-multi STATIC ${ELSE_SOURCES} ${CYCLONE_SOURCES} ${PDLUA_SOURCES} ${})
 
 list(APPEND ELSE_INCLUDES
